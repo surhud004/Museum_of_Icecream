@@ -1,0 +1,67 @@
+/*Vanilla Twilight Color Palette @ color-hex.com*/
+body {
+	background-color: #e1d4ac;
+	font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+	/*rem - root em - relative to size of root of element here body*/
+	/*weight - thickness of font*/
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+	color: #fff1c4;
+}
+#mainNavbar .nav-link {
+	color: white;
+}
+#mainNavbar .nav-link:hover {
+	color: #fff1c4;
+}
+#mainNavbar .dropdown-menu {
+	background-color: #ddbf86;
+}
+#mainNavbar .dropdown-item {
+	color: white;
+	background-color: #ddbf86;
+}
+#mainNavbar .dropdown-item:hover {
+	color: #fff1c4;
+	background-color: #ddbf86;
+}
+
+
+#headingGroup span {
+	color: #fff1c4;
+}
+#headingGroup h1 {
+	font-size: 3rem;
+	font-weight: 100;
+}
+.navbar.scrolled {
+	background-color: #ddbf86;
+	transition: background-color 1s;
+}
+/*shrink heading size at this screen size*/
+@media (max-width: 1200px) {
+	#headingGroup h1 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+}
+section {
+	margin-bottom: 100px;
+}
+h2 {
+	color: #fff1c4;
+	font-weight: 100;
+}
+.icecream-icon {
+	width: 4rem;
+}
+.lead {
+	color: white;
+	font-weight: 100;
+	font-size: 1.125rem;
+}

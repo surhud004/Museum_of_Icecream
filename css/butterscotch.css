@@ -1,0 +1,67 @@
+/*butterscotch Color Palette @ color-hex.com*/
+body {
+	background-color: #fded9e;
+	font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+	/*rem - root em - relative to size of root of element here body*/
+	/*weight - thickness of font*/
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+	color: #dab760;
+}
+#mainNavbar .nav-link {
+	color: white;
+}
+#mainNavbar .nav-link:hover {
+	color: #dab760;
+}
+#mainNavbar .dropdown-menu {
+	background-color: #fbdf53;
+}
+#mainNavbar .dropdown-item {
+	color: white;
+	background-color: #fbdf53;
+}
+#mainNavbar .dropdown-item:hover {
+	color: #dab760;
+	background-color: #fbdf53;
+}
+
+
+#headingGroup span {
+	color: #fbdf53;
+}
+#headingGroup h1 {
+	font-size: 3rem;
+	font-weight: 100;
+}
+.navbar.scrolled {
+	background-color: #fbdf53;
+	transition: background-color 1s;
+}
+/*shrink heading size at this screen size*/
+@media (max-width: 1200px) {
+	#headingGroup h1 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+}
+section {
+	margin-bottom: 100px;
+}
+h2 {
+	color: #dab760;
+	font-weight: 100;
+}
+.icecream-icon {
+	width: 4rem;
+}
+.lead {
+	color: #e09540;
+	font-weight: 100;
+	font-size: 1.125rem;
+}

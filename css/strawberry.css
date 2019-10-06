@@ -1,0 +1,67 @@
+/*strawberry ice cream Color Palette @ color-hex.com*/
+body {
+	background-color: #fdb4bf;
+	font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+	/*rem - root em - relative to size of root of element here body*/
+	/*weight - thickness of font*/
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+	color: #bd2929;
+}
+#mainNavbar .nav-link {
+	color: white;
+}
+#mainNavbar .nav-link:hover {
+	color: #bd2929;
+}
+#mainNavbar .dropdown-menu {
+	background-color: #fb697f;
+}
+#mainNavbar .dropdown-item {
+	color: white;
+	background-color: #fb697f;
+}
+#mainNavbar .dropdown-item:hover {
+	color: #bd2929;
+	background-color: #fb697f;
+}
+
+
+#headingGroup span {
+	color: #bd2929;
+}
+#headingGroup h1 {
+	font-size: 3rem;
+	font-weight: 100;
+}
+.navbar.scrolled {
+	background-color: #fb697f;
+	transition: background-color 1s;
+}
+/*shrink heading size at this screen size*/
+@media (max-width: 1200px) {
+	#headingGroup h1 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+}
+section {
+	margin-bottom: 100px;
+}
+h2 {
+	color: #fb697f;
+	font-weight: 100;
+}
+.icecream-icon {
+	width: 4rem;
+}
+.lead {
+	color: #64981d;
+	font-weight: 100;
+	font-size: 1.125rem;
+}

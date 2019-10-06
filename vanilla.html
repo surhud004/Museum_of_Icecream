@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--meta tags for responsive design acc. to device widths-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--google font link-->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700&display=swap" rel="stylesheet">
+	<!--bootstrap css-->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!--custom css-->
+	<link rel="stylesheet" type="text/css" href="css/vanilla.css">
+	<link rel="icon" href="assets/icone.png">
+	<title>Museum of Ice-Cream</title>
+</head>
+<body>
+	<!--navbar dark theme, expand at medium width, fixed to the top, padding top bottom zero-->
+	<nav id="mainNavbar" class="navbar fixed-top navbar-dark navbar-expand-md py-0">
+		<a href="#" class="navbar-brand">ICE-CREAM</a>
+		<!--navbar toggler button collapse and hide navLinks content at medium width, aria label for screen reader software for blind-->
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="navLinks" class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">HOME</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="#" class="nav-link">ABOUT</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="#" class="nav-link">TICKETS</a>
+				</li>
+
+				<li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          FLAVOUR
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        	<a class="dropdown-item" href="butterscotch.html">Butterscotch</a>
+			        	<a class="dropdown-item" href="chocolate.html">Chocolate</a>
+  			          	<a class="dropdown-item" href="cookiescream.html">Cookies N Cream</a>
+			          	<a class="dropdown-item" href="strawberry.html">Strawberry</a>
+  			          	<a class="dropdown-item" href="vanilla.html">Vanilla</a>
+			        </div>
+			    </li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--fluid container grid system with rows and columns, remove padding on sides-->
+	<!-- rows, 2 columns-->
+	<section class="container-fluid">
+		<div class="row align-items-center px-0">
+			<div class="col-lg-6 px-0">
+				<!--hide h2 at all sizes, display h2 from lg size, margin top 5-->
+				<div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+					<h1>MUSEUM <span>/</span> OF <span>/</span> ICE-CREAM</h1>
+				</div>
+			</div>
+			<div class="col-lg-6 px-0">
+				<!--img fluid makes images responsive and scalable-->
+				<img src="assets/vanilla/vancream.jpg" class="img-fluid">
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="row align-items-center px-0">
+			<div class="col-md-6 px-0 order-2 order-md-1">
+				<img src="assets/vanilla/vancakes.jpg" class="img-fluid">
+			</div>
+			<!--display first text for all sizes and swap with image from md onwards-->
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<!--nested grid system, justify content will assign 10 cols in center of 12 cols-->
+				<div class="row justify-content-center">
+					<!--10 cols for all sizes, 8 cols from lg onwards, margin bottom 5, 0 from md onwards-->
+					<div class="col-10 col-lg-8 mb-5 mb-md-0">
+						<h2>MUSEUM OF ICE-CREAM</h2>
+						<!--padding top bottom 2, hide for all sizes, display from lg onwards-->
+						<img src="assets/icone.png" class="icecream-icon img-fluid py-2 d-none d-lg-inline">
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="row align-items-center px-0">
+			<!--display first text for all sizes and swap with image from md onwards-->
+			<div class="col-md-6 text-center">
+				<!--nested grid system, justify content will assign 10 cols in center of 12 cols-->
+				<div class="row justify-content-center">
+					<!--10 cols for all sizes, 8 cols from lg onwards, margin bottom 5, 0 from md onwards-->
+					<div class="col-10 col-lg-8 mb-5 mb-md-0">
+						<h2>MUSEUM OF ICE-CREAM</h2>
+						<!--padding top bottom 2, hide for all sizes, display from lg onwards-->
+						<img src="assets/icone.png" class="icecream-icon img-fluid py-2 d-none d-lg-inline">
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 px-0">
+				<img src="assets/vanilla/vancupcream.jpg" class="img-fluid">
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="row align-items-center px-0">
+			<div class="col-md-6 px-0 order-2 order-md-1">
+				<img src="assets/vanilla/vandessert.jpg" class="img-fluid">
+			</div>
+			<!--display first text for all sizes and swap with image from md onwards-->
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<!--nested grid system, justify content will assign 10 cols in center of 12 cols-->
+				<div class="row justify-content-center">
+					<!--10 cols for all sizes, 8 cols from lg onwards, margin bottom 5, 0 from md onwards-->
+					<div class="col-10 col-lg-8 mb-5 mb-md-0">
+						<h2>MUSEUM OF ICE-CREAM</h2>
+						<!--padding top bottom 2, hide for all sizes, display from lg onwards-->
+						<img src="assets/icone.png" class="icecream-icon img-fluid py-2 d-none d-lg-inline">
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="page-footer text-center">
+		<p class="lead">Designed and Coded by : surhud004 &copy; 2019</p> <!-- Build Date : 4th Oct 2019 -->
+	</footer>
+	<!--jquery for bootstrap for tooltips and popups-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<!--popper for bootstrap for positioning elements calculations-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!--bootstrap js-->
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		//toggle scrolled class (scroll effect color change) on navbar when scroll bar position is greater than navbar height
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $("#mainNavbar");
+				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+			})
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/*Chocolate Color Palette @ color-hex.com*/
+body {
+	background-color: #a97b4c;
+	font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+	/*rem - root em - relative to size of root of element here body*/
+	/*weight - thickness of font*/
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+	color: #ffe4a3;
+}
+#mainNavbar .nav-link {
+	color: white;
+}
+#mainNavbar .nav-link:hover {
+	color: #ffe4a3;
+}
+#mainNavbar .dropdown-menu {
+	background-color: #672f0a;
+}
+#mainNavbar .dropdown-item {
+	color: white;
+	background-color: #672f0a;
+}
+#mainNavbar .dropdown-item:hover {
+	color: #ffe4a3;
+	background-color: #672f0a;
+}
+
+
+#headingGroup span {
+	color: #ffe4a3;
+}
+#headingGroup h1 {
+	font-size: 3rem;
+	font-weight: 100;
+}
+.navbar.scrolled {
+	background-color: #672f0a;
+	transition: background-color 1s;
+}
+/*shrink heading size at this screen size*/
+@media (max-width: 1200px) {
+	#headingGroup h1 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+}
+section {
+	margin-bottom: 100px;
+}
+h2 {
+	color: #ffe4a3;
+	font-weight: 100;
+}
+.icecream-icon {
+	width: 4rem;
+}
+.lead {
+	color: #ddbf86;
+	font-weight: 100;
+	font-size: 1.125rem;
+}

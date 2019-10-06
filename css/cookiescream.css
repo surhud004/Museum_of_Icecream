@@ -1,0 +1,67 @@
+/*Creamy Ice Cream Color Scheme @ schemecolor.com*/
+body {
+	background-color: #381A14;
+	font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+	/*rem - root em - relative to size of root of element here body*/
+	/*weight - thickness of font*/
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+	color: #FFFFD0;
+}
+#mainNavbar .nav-link {
+	color: white;
+}
+#mainNavbar .nav-link:hover {
+	color: #FFFFD0;
+}
+#mainNavbar .dropdown-menu {
+	background-color: #4B2D2A;
+}
+#mainNavbar .dropdown-item {
+	color: white;
+	background-color: #4B2D2A;
+}
+#mainNavbar .dropdown-item:hover {
+	color: #FFFFD0;
+	background-color: #4B2D2A;
+}
+
+
+#headingGroup span {
+	color: #FFFFD0;
+}
+#headingGroup h1 {
+	font-size: 3rem;
+	font-weight: 100;
+}
+.navbar.scrolled {
+	background-color: #4B2D2A;
+	transition: background-color 1s;
+}
+/*shrink heading size at this screen size*/
+@media (max-width: 1200px) {
+	#headingGroup h1 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+}
+section {
+	margin-bottom: 100px;
+}
+h2 {
+	color: white;
+	font-weight: 100;
+}
+.icecream-icon {
+	width: 4rem;
+}
+.lead {
+	color: #FFFFD0;
+	font-weight: 100;
+	font-size: 1.125rem;
+}
